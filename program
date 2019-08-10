@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int y,z,total=0;
+	cin>>z>>y;
+	y=100-y;
+	while(z>0)
+	{
+	    total=total+z;
+	    z=(y*z)/100;
+	    
+	}
+	cout<<total;
+	return 0;
+}
